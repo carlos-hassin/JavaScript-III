@@ -19,8 +19,12 @@
 const GameObject (attributes){
 this.newCreatedAt = attributes.createdAt,
 this.newName = attributes.name,
-function dimensions(length, width, height){
-  
+function dimensions(dimAtt){
+  this.newLength = dimAtt.length,
+  this.newWidth = dimAtt.width,
+  this.newHeight = dimAtt.height,
+function destroy() 
+
 }
 
 }
