@@ -23,7 +23,7 @@ function dimensions(dimAtt){
   this.newLength = dimAtt.length,
   this.newWidth = dimAtt.width,
   this.newHeight = dimAtt.height,
-function destroy() 
+function destroy()
 
 }
 
